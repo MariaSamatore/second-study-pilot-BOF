@@ -1,0 +1,12 @@
+{
+    "title": "RedirectToProlific",
+    "instructions": "",
+    "code": "",
+    "questions": [
+      {
+        "questiontype": "textview",
+        "title": "Thank you for completing this study!",
+        "text": "<p>Please use the link to return to Prolific: <a href='https://app.prolific.co/submissions/complete?cc=C165KPM6'<>https://app.prolific.co/submissions/complete?cc=C165KPM6</a></p>"
+      }
+    ]
+}

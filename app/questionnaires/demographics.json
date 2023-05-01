@@ -1,0 +1,60 @@
+{  
+    "title":"Demographics",
+    "code":"",
+    "questions":[
+        {
+            "questiontype":"drop_down",
+            "instructions":"Please indicate how often (on average) you play games:",
+            "id":"gamer_rate",
+            "items":[
+                "Every day",
+                "A few times per week",
+                "A few times per month",
+                "A few times per year",
+                "Never"
+                ]
+        },
+        {
+                "questiontype": "drop_down",
+                "instructions": "If you played games more or less in the past, please indicate how often you used to play:",
+                "id": "former_gamer_rate",
+                "items": [
+                    "Every day",
+                    "A few times per week",
+                    "A few times per month",
+                    "A few times per year",
+                    "Never"
+                ]
+        },
+        {
+            "questiontype": "slider",
+            "instructions": "How much do you self-identify as a gamer on the following scale:",
+            "id": "gamer_identity",
+            "left": "not at all",
+            "right": "gamer",
+            "tick_count": 10
+      },
+      {
+        "questiontype": "slider",
+        "instructions": "Please rate how difficult you found the game.",
+        "id": "gamer_identity",
+        "left": "not at all difficult",
+        "right": "extremely difficult",
+        "tick_count": 7
+      },
+        {
+            "questiontype": "multi_field",
+            "instructions": "Do you have any feedback related to the game or the game's difficulty?",
+            "placeholder": "game feedback",
+            "id": "game_feedback",
+            "height": "100"
+        },
+        {
+            "questiontype": "multi_field",
+            "instructions": "Did you face any technical problems during the study? If yes, please describe below.",
+            "placeholder": "technical feedback",
+            "id": "technical_feedback",
+            "height": "100"
+        }
+    ]
+}
